@@ -1,0 +1,39 @@
+.header {
+    background-color: var(--black);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.header-logo--icon {
+    font-size: 2rem;
+    color: var(--secondary);
+}
+
+.header-logo--title {
+    font-size: 2rem;
+    text-decoration: underline var(--secondary);
+}
+
+.header-menu {
+    cursor: pointer;
+    border: none;
+    background-color: var(--black);
+}
+
+.header-menu--icon {
+    font-size: 2rem;
+    color: var(--secondary);
+    transition: var(--transition-short);
+}
+
+.header-menu--icon:hover {
+    color: var(--white);
+}

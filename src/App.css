@@ -1,0 +1,37 @@
+@import url("./assets/css/header.css");
+@import url("./assets/css/add-container.css");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    /* --bg-main: #525356; */
+    /* --bg-main: #1e5979; */
+    --bg-main: #5186a2;
+    --white: #ffffff;
+    --dark: #140b38;
+    --secondary: #ff9678;
+    --negative: #eb4e2f;
+    /* --positive: #1db870; */
+    --positive: #55b481;
+    /* --warning: #f0ad2d; */
+    --warning: #ffc178;
+    --accent: #018ff8;
+    --transition-short: 0.4s ease-in-out;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--white);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
+
+.main-container {
+    padding: 2rem;
+}

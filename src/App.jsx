@@ -1,11 +1,13 @@
 import "./App.css";
-
-function App() {
+import Header from "./assets/components/Header";
+import AddProject from "./assets/components/AddProject";
+export default function App() {
     return (
         <>
-            <h1>Testing</h1>
+            <Header />
+            <div className="main-container">
+                <AddProject />
+            </div>
         </>
     );
 }
-
-export default App;
